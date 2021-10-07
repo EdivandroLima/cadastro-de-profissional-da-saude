@@ -67,7 +67,7 @@ $ npm install vuelidate
 ## Levantando server com reload em localhost:8080
 ``` $ npm run serve ```
 
-### Build para produção
+## Build para produção
 ``` $ npm run build ```
 
 ## Desenvolvedor

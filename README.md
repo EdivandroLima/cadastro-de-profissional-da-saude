@@ -10,17 +10,17 @@ A Página 1 é composta por 5 campos
 2. O campo “CPF” deve ser validado como um CPF. Esse campo só deve aceitar
 números. E deve seguir o formato 000.000.000-00, exemplo: 239.681.080-43.
 3. O campo “Número de celular” deve aceitar só números, e deve ter 11 dígitos. E deve seguir o formato (00) 0 0000-0000, exemplo: (51) 9 2253-8347.
-4. O campo “Estado” deve ter as seguintes opções: Paraná, Rio Grande do Sul e Santa Catarina.
-5. O campo “Cidade” deve ter as seguintes opções, para cada estado:
+4. O campo “Estado” tem as seguintes opções: Paraná, Rio Grande do Sul e Santa Catarina.
+5. O campo “Cidade” tem as seguintes opções, para cada estado:
     - Paraná: Londrina e Maring
     - Rio Grande do Sul: Pelotas e Porto Alegre
     - Santa Catarina: Florianópolis e Joinville
 
 ### Página 2 - Sobre o atendimento
 A Página 2 é composta por 4 campos.
-1. O campo “Especialidade principal” deve conter as seguintes opções, na mesma ordem: Cardiologia, Dermatologia, Neurologia, Oftalmologia, Psiquiatria e Urologia.
+1. O campo “Especialidade principal” conter as seguintes opções, na mesma ordem: Cardiologia, Dermatologia, Neurologia, Oftalmologia, Psiquiatria e Urologia.
 2. O campo “Informe o preço da consulta” deve aceitar valores entre 30,00 e 350,00. E só deve aceitar números e vírgula.
-3. O campo “Formas de pagamento da consulta” deve aceitar mais de uma seleção (checkbox). Exemplo: é possível selecionar “Em dinheiro” e “Pix”.
+3. O campo “Formas de pagamento da consulta” aceita mais de uma seleção (checkbox). Exemplo: é possível selecionar “Em dinheiro” e “Pix”.
 4. A opção “Cartão de crédito”, do campo “formas de pagamento da consulta”, deve abrir (mostrar) outras opções. Essas novas opções de Parcelamento só devem aparecer quando a opção de “Cartão de crédito” for selecionada, e quando a opção de parcelamento aparecer é obrigatório selecionar uma opção de parcelamento.
 
 ### Página 3 - Revisão do cadastro
@@ -76,4 +76,3 @@ $ npm install vuelidate
 
 ## Info
 Esse projeto foi totalmente elaborado pela empresa *** para um teste de desenvolvimento com Vue.js
-
